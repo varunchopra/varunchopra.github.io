@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Varun Chopra</title>
+    <style>
+        body {
+            background-color: #151515;
+            font-family: 'Menlo', 'Monaco', 'Courier New', Courier, monospace;
+            font-size: 0.86rem;
+        }
+        
+        .cursor {
+            -webkit-animation: 1s blink step-end infinite;
+            -moz-animation: 1s blink step-end infinite;
+            -ms-animation: 1s blink step-end infinite;
+            -o-animation: 1s blink step-end infinite;
+            animation: 1s blink step-end infinite;
+        }
+        
+        @keyframes "blink" {
+            from,
+            to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
+        
+        @-moz-keyframes blink {
+            from,
+            to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
+        
+        @-webkit-keyframes "blink" {
+            from,
+            to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
+        
+        @-ms-keyframes "blink" {
+            from,
+            to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
+        
+        @-o-keyframes "blink" {
+            from,
+            to {
+                color: transparent;
+            }
+            50% {
+                color: white;
+            }
+        }
+        
+        .centered {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 330px;
+            text-align: center;
+            height: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centered">
+        <span>root@varunchopra.vc:/var/www/html$</span>
+        <span class="cursor">|</span>
+    </div>
+</body>
+
+</html>
